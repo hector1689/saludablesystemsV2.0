@@ -1,0 +1,16 @@
+Options -Indexes
+
+
+<IfModule mod_rewrite.c>
+# Activar RewriteEngine
+RewriteEngine on
+
+RewriteBase /saludable_systems2.2/
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+
+RewriteRule ^(.*)$ $1.php
+
+
+</IfModule>
