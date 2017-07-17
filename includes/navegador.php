@@ -39,13 +39,13 @@ $_SESSION['tiempo'] = time();
 
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-              <img src="image/logo_grecia.png" class="user-image" alt="User Image">
+              <img src="image/logo_solo.png" class="user-image" alt="User Image">
               <span class="hidden-xs"><?php echo $_SESSION["loginUsers"];?></span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
-                <img src="image/logo_grecia.png" class="img-circle" alt="User Image">
+                <img src="image/logo_solo.png" class="img-circle" alt="User Image">
 
                 <p>
                   Tipo: <?php echo $_SESSION["nameProfi"];?>

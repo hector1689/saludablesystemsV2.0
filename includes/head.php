@@ -2,7 +2,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Saludable Systems</title>
   <!-- Tell the browser to be responsive to screen width -->
-  <link rel="icon" href="image/logo_nutri.ico" type="image/x-icon">
+  <link rel="icon" href="image/logo_solo.ico" type="image/x-icon">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
   <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">

@@ -48,10 +48,5 @@ $("#paciente_alta").html(result);
 }});
 });
 
-$("#paciente_alta").click(function(){
 
-$("#paciente_alta").hide();//oculta el div cuando se hace clic sobre el mismo
-
-location.reload(1);
-});
 });

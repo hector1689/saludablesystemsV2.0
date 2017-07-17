@@ -91,7 +91,7 @@ $result3 = $sth3->fetchAll();
                       <td ><?php echo $value['direccion'];?></td>
                       <td>
 
-                      <small id="td"><a href="Medicos/editar_medico.php?id=<?php echo $value['id_paciente']; ?>" class="btn btn-primary btn-sm btn-flat"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></small>
+                      <small id="td"><a href="paginas_nutri/editar_medico.php?id=<?php echo $value['id_paciente']; ?>" class="btn btn-primary btn-sm btn-flat"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></small>
                       
                       <small><a class="btn btn-danger btn-sm btn-flat"  onclick="eliminarPaciente('<?php echo $value['id_paciente']; ?>')"><i class="fa fa-trash" aria-hidden="true"></i></a></small>
                       </td>
@@ -139,3 +139,5 @@ $("#td a").each(function(){
   }(jQuery));
  });
 </script>
+
+<div id="div-results"></div>
